@@ -1,0 +1,27 @@
+
+/* Footer */
+
+footer {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background: #150c21;
+  border-top: 1px solid var(--main-white);
+
+}
+
+
+@media (max-width: 28.75em) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+}
+
+footer p{
+  font-size: 1.8rem;
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-white);
+}

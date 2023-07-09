@@ -1,0 +1,40 @@
+.ContainerCurriculo{
+  width: 100%;
+  background-color: #F8F2FF;
+  
+  p{
+    
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+}
+.ContentCurriculo{
+  background-color: #F8F2FF;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  button{
+    border: 1px solid rgb(216, 214, 214);
+    border-radius: 16px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto',sans-serif;
+    cursor: pointer;
+    svg{
+      margin-right: 5px;
+    }
+  }
+}
+.rise,
+.rise:hover,
+.rise:focus {
+  transition: all 0.3s ease;
+}
+
+.rise:hover,
+.rise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em #444;
+  transform: translateY(-0.25em);
+}
+

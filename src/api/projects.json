@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "imagem": "/public/img/arquitetura.png",
+    "title": "Projeto arquitetura",
+    "subtitle": "Tecnologias Utilizadas",
+    "tec1": "React",
+    "tec2": "Sass",
+    "tec3": "Webpack",
+    "link": "https://portifolioarquitetura.netlify.app/"
+  },
+  {
+    "id": 2,
+    "imagem": "/public/img/exhouse2.png",
+    "title": "Exhouse Construtora",
+    "subtitle": "Tecnologias Utilizadas",
+    "tec1": "React",
+    "tec2": "Sass",
+    "tec3": "Webpack",
+    "link": "https://exhouseconstrutora.netlify.app/"
+
+  },
+  {
+    "id": 3,
+    "imagem": "/public/img/under.jpg",
+    "title": "Projeto Web",
+    "subtitle": "Tecnologias Utilizadas",
+    "tec1": "Em construção",
+    "tec2": "",
+    "tec3": "",
+    "link": ""
+
+  }
+]

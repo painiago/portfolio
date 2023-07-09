@@ -1,0 +1,92 @@
+:root{
+  --primary: black;
+  --secundary: #707070;
+  --third:#4d4d4d;
+  --font-primary:"Roboto",sans-serif;
+  --font-secundary: adobe-garamon-pro, italic;
+  --footer: #212529;
+  --main-red-1: #1f36ff;
+
+
+  --main-white: #f0f0f0;
+  --main-ft: #100450;
+  --main-gray: #303841;
+  // --font-primary:"FF Zwo";
+  --main-background: #150c21;
+  // --main-background: #6E07F3;
+}
+
+
+/* Base reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* box-sizing and font sizing */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+
+  /* Define o tamanho da fonte para facilitar os cálculos rem
+   * tamanho padrão da fonte do documento = 16px, 1rem = 16px, 100% = 16px
+   * (100% / 16px) * 10 = 62,5%, 1rem = 10px, 62,5% = 10px
+  */
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+/* Algumas consultas de mídia para definir alguns tamanhos de fonte em diferentes tamanhos de tela.
+ * Isso ajuda a automatizar um pouco a capacidade de resposta.
+ * O truque é usar a unidade rem para valores de tamanho, margem e preenchimento.
+ * Porque rem é relativo ao tamanho da fonte do documento
+ * quando aumentamos ou diminuímos o tamanho da fonte no documento
+ * afetará todas as propriedades usando unidades rem para os valores.
+*/
+
+/* Base styles */
+
+body {
+  font-size: 1.8rem; /* 18px */
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--main-white);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont,'Poppins', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-align: center !important;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 6rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-white);
+  font-family: var(--font-primary);
+  text-transform: uppercase;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

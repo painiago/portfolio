@@ -1,0 +1,221 @@
+@import url("https://use.typekit.net/jtg5uxq.css");
+@import url("https://use.typekit.net/vmn5sac.css");
+@import url("https://use.typekit.net/zer6fll.css");
+
+
+
+/* Welcome section */
+.container {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding:  0 20px;
+  flex-direction: column;
+
+}
+.web{
+  top: 55px !important;
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  color:  white;
+  font-family: var(--font-secundary);
+  font-style: italic !important;
+  
+}
+.text {
+  position: absolute;
+  top: 10px;
+  z-index: 5;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.subtitle{
+  font-family: "Roboto", sans-serif;
+  line-height: 2;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  // background-color: rgb(185, 148, 222);
+  color: white;
+  border-radius: 16px;
+}
+
+
+h2 {
+  font-size: 4.2rem;
+  
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-white);
+}
+
+
+img {
+  display: block;
+  width: 100%;
+}
+span{
+  display: inline-flex;
+  margin: 0 !important;
+  
+  h1 {
+    font-size: 6rem;
+    font-family: var(--font-primary);
+    color: white;
+    @media (max-width: 991px) {
+      font-size: 4rem;
+      text-align: center !important;
+    }
+    @media (max-width: 628px) {
+      font-size: 4rem;
+      text-align: center ;
+    }
+    
+    
+  }
+}
+
+.welcomesection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+.welcomesection > p {
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  color: var(--main-red-1);
+  
+}
+/* CONFIGURAÇÃO BACKGROUND VIDEO */
+.bg {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.bg video{
+   position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+// CONFIGURAÇÃO AUDIO
+/* Estilizando o botão de áudio */
+.settingaudio {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Estilizando o ícone de áudio no botão */
+.settingaudio::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+/* Estilizando o ícone de áudio quando o áudio está desligado */
+.settingaudio.off::after {
+  display: none;
+}
+
+/* Estilizando o ícone de áudio quando o áudio está ligado */
+.settingaudio.on::after {
+  display: block;
+}
+
+
+.icon {
+  margin-left: 10px !important;
+  margin-right: 10px; /* Adicione esta linha */
+  top: 12px;
+  position: relative;
+  animation: shake 4s infinite;
+  margin-top: 50px;
+  font-size: 2rem;
+  color: rgb(255, 206, 12);
+  @media (max-width:991px) {
+  
+  }
+}
+
+
+.iconAudio{
+  color: #1dd2ff;
+}
+@keyframes shake {
+  0% {
+    transform: translateY(-50%) rotate(0deg);
+  }
+
+  75% {
+    transform: translateY(-50%) rotate(55deg);
+  }
+  100%{
+    transform: translateY(-50%) rotate(0deg);
+  }
+}
+
+
+// Redes sociais
+.contact-linkwelcome {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  max-width: 980px;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+.btnwelcome{
+  margin-top: 30px !important;
+  border-radius: 10%;
+  padding: 5px 10px 5px 10px;
+  margin: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.btnwelcome:hover{
+  background-color: white;
+  color: black;
+  transition: 0.7s;
+}

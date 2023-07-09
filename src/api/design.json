@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "imagem": "/public/img/pfinal.png",
+    "title": "Projeto arquitetura",
+    "subtitle": "Ferramenta utilizada",
+    "tec1": "Adobe XD",
+    "tec2": "",
+    "tec3": "",
+    "link": "https://www.behance.net/gallery/174152033/Project-Portfolio"
+  },
+  {
+    "id": 2,
+    "imagem": "/public/img/pfinal.png",
+    "title": "Exhouse Construtora",
+    "subtitle": "Ferramenta utilizada",
+    "tec1": "Adobe XD",
+    "tec2": "",
+    "tec3": "",
+    "link": "https://www.behance.net/gallery/174897027/Exhouse-Construtora"
+
+  },
+  {
+    "id": 3,
+    "imagem": "/public/img/pfinal.jpg",
+    "title": "Projeto Web",
+    "subtitle": "Ferramenta utilizada",
+    "tec1": "Em construção",
+    "tec2": "",
+    "tec3": "",
+    "link": ""
+
+  }
+]
