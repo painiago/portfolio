@@ -40,7 +40,10 @@ function ProjetosDesigner() {
                 <a href={project.link} target="_blank" className="project">
                   {project.id === 1 && <img src={img1} alt="projeto" className="project-image1" />}
                   {project.id === 2 && <img src={img2} alt="projeto" className="project-image1" />}
-                  {project.id === 3 && <img src={img3} alt="projeto" className="project-image1" />}
+                  {/* {project.id === 3 && <img src={img3} alt="projeto" className="project-image1" />} */}
+                </a>
+                <a href={project.link} className="project">
+                {project.id === 3 && <img src={img3} alt="projeto" className="project-image1" />}
                 </a>
                 <div className="containerbar1">
                   <div className="containerbar__content1">

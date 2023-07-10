@@ -40,7 +40,10 @@ function Projetos() {
                 <a href={project.link} target="_blank" className="project">
                   {project.id === 1 && <img src={img1} alt="projeto" className="project-image" />}
                   {project.id === 2 && <img src={img2} alt="projeto" className="project-image" />}
-                  {project.id === 3 && <img src={img3} alt="projeto" className="project-image" />}
+                 
+                </a>
+                <a href={project.link}  className="project">
+                {project.id === 3 && <img src={img3} alt="projeto" className="project-image" />}
                 </a>
                 <div className="containerbar">
                   <div className="containerbar__content">
