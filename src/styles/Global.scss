@@ -16,11 +16,12 @@
   // --main-background: #6E07F3;
 
   @font-face {
-    font-family: 'The Californication',sans-serif;
+    font-family: 'The Californication', sans-serif;
     font-style: normal;
     font-weight: normal;
-    src: local('/styles/fonts/The Californication.ttf') format('truetype');
-    }
+    src: local('./fonts/The Californication.ttf') format('truetype');
+  }
+  
 }
 
 
