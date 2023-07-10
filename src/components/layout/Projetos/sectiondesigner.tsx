@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './stylesdesigner.scss';
 import img1 from '/public/img/pfinal.png';
 import img2 from '/public/img/ss2.png';
-import img3 from '/public/img/under.jpg';
+import img3 from '/public/img/construcao.png';
 
 import projectsData from '../../../api/design.json';
 
@@ -35,15 +35,15 @@ function ProjetosDesigner() {
         </div>
       <div className="projects-grid1">
       {projectsData.map((project) => (
-            <div className="project-title" key={project.id}>
+            <div className="project-title1" key={project.id}>
               <div className="testhover">
                 <a href={project.link} target="_blank" className="project">
                   {project.id === 1 && <img src={img1} alt="projeto" className="project-image1" />}
                   {project.id === 2 && <img src={img2} alt="projeto" className="project-image1" />}
                   {project.id === 3 && <img src={img3} alt="projeto" className="project-image1" />}
                 </a>
-                <div className="containerbar">
-                  <div className="containerbar__content">
+                <div className="containerbar1">
+                  <div className="containerbar__content1">
                      <a href={project.link} target="_blank" >
                       <p>{project.title}</p>
                     </a>
@@ -56,7 +56,7 @@ function ProjetosDesigner() {
                     )}
                   </div>
                 </div>
-                <div className={`boxproject project-description ${
+                <div className={`boxproject1 project-description1 ${
                     isProjectSelected(project.id) ? 'show' : ''
                   }`}
                 >
