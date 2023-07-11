@@ -18,13 +18,13 @@
   --main-background: #150c21;
   // --main-background: #6E07F3;
 
-  @font-face {
-    font-family: 'The Californication', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    src: local('./fonts/The Californication.ttf') format('ttf');
-  }
   
+}
+@font-face {
+  font-family: 'The Californication', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  src: local('../../../fonts/The Californication.ttf') format('truetype');
 }
 
 

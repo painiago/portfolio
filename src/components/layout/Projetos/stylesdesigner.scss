@@ -3,6 +3,12 @@
 @import url("https://use.typekit.net/zer6fll.css");
 
 
+@font-face {
+  font-family: 'The Californication', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  src: local('../../../fonts/The Californication.ttf') format('truetype');
+}
 
 
 /* CONTAINER  */
@@ -17,7 +23,7 @@
 
 .desh2{
   color: black;
-  font-family: var(--font-the) !important;
+  font-family: 'The Californication',sans-serif !important;
   text-align: center;
   font-size: 6rem;
 }
