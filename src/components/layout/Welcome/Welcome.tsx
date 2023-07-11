@@ -22,7 +22,7 @@ return (
         </div>
         </div>
         <div className='bg one'>
-       <video src={videointro} id='bgvid'   autoPlay loop muted ></video>
+       <video src={videointro} id='bgvid'   autoPlay loop muted  playsInline></video>
       </div>
 </section> 
   )
