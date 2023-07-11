@@ -4,7 +4,7 @@ import "./curriculo.scss";
 
 export default function Curriculo() {
   const handleDownload = () => {
-    window.open("/static/curriculo.pdf", "_blank");
+    window.open("/curriculo.pdf", "_blank");
   };
 
   return (
