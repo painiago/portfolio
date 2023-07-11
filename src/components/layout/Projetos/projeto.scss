@@ -109,7 +109,10 @@ h2{
   max-width: 1200px;
   margin: 0 auto;
   @media (max-width:991px) {
-    grid-gap: 4rem;
+    grid-gap: 4rem !important;
+  }
+  @media (max-width:768px) {
+    grid-gap: 4rem !important;
   }
 }
 
