@@ -12,17 +12,17 @@ import SliderLogo from './components/layout/SliderLogos/SliderLogo';
 import Skills from './components/layout/Skills/Skills';
 import Curriculo from './components/curriculo/curriculo';
 import ProjetosDesigner from './components/layout/Projetos/sectiondesigner';
-import { Helmet} from 'react-helmet'
+// import { Helmet} from 'react-helmet'
 import './fonts/The Californication.ttf';
 
-import favicon from '../public/img/iconfav.png'
-const linkg = 'https://fonts.googleapis.com';
+// import favicon from '../public/img/iconfav.png'
+// const linkg = 'https://fonts.googleapis.com';
 
 
 function App() {
   return (
     <div className="App">
-      <Helmet>
+      {/* <Helmet>
         <meta charSet="utf-8" />
         <meta name="theme-color" content="#000000" />
         <title>Iago Nascimento | DevWeb</title>
@@ -32,7 +32,7 @@ function App() {
         <link rel="icon" href={favicon} />
         <link rel="preconnect" href={linkg}/>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"/>
-      </Helmet>
+      </Helmet> */}
 
       <NavBar />
       <Welcome />
