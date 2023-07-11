@@ -29,10 +29,10 @@ function Projetos() {
     <section className="projects-section" id="projects">
       <div className="containerbarline">
         <div className="line"></div>
-        <h2>PROJETOS</h2>
+        <h2 className='desh1'>PROJETOS</h2>
         <div className="line"></div>
       </div>
-      <div className="slide first">
+     
         <div className="projects-grid">
           {projectsData.map((project) => (
             <div className="project-title" key={project.id}>
@@ -90,7 +90,7 @@ function Projetos() {
             </div>
           ))}
         </div>
-      </div>
+      
     </section>
   );
 }

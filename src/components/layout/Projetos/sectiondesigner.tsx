@@ -36,7 +36,7 @@ function ProjetosDesigner() {
       <div className="projects-grid1">
       {projectsData.map((project) => (
             <div className="project-title1" key={project.id}>
-              <div className="testhover">
+              <div className="testhover1">
                 <a href={project.link} target="_blank" className="project">
                   {project.id === 1 && <img src={img1} alt="projeto" className="project-image1" />}
                   {project.id === 2 && <img src={img2} alt="projeto" className="project-image1" />}
@@ -51,10 +51,10 @@ function ProjetosDesigner() {
                       <p>{project.title}</p>
                     </a>
                     {isProjectSelected(project.id) ? (
-                      <FontAwesomeIcon icon={faTimes} className="rotateicon" onClick={() => handleIconClick(project.id)}
+                      <FontAwesomeIcon icon={faTimes} className="rotateicon1" onClick={() => handleIconClick(project.id)}
                       />
                     ) : (
-                      <FontAwesomeIcon icon={faBars} className="rotateicon" onClick={() => handleIconClick(project.id)}
+                      <FontAwesomeIcon icon={faBars} className="rotateicon1" onClick={() => handleIconClick(project.id)}
                       />
                     )}
                   </div>
@@ -65,17 +65,17 @@ function ProjetosDesigner() {
                 >
                   <ul>
                     <li>
-                      <div className="boxcircle">
+                      <div className="boxcircle1">
                         <p>{project.subtitle}</p>
                       </div>
                     </li>
                     <li>
-                      <div className="boxcircle">
+                      <div className="boxcircle1">
                         <p>{project.tec1}</p>
                       </div>
                     </li>
                     <li>
-                      <div className="boxcircle">
+                      <div className="boxcircle1">
                         <p>{project.tec2}</p>
                       </div>
                     </li>
