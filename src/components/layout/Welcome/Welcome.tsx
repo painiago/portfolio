@@ -10,8 +10,10 @@ return (
   <section id="welcome-section" className="welcomesection">
       <div className='container text' id='text'>
         <span>
-          <h1>Hi, I'm Iago Nascimento</h1>
-          <FontAwesomeIcon icon={faHand} className='icon'/>
+          <h1>
+            Hi, I'm Iago Nascimento
+              <FontAwesomeIcon icon={faHand} className='icon'/>
+            </h1>
           </span>
           <p className='web'> desenvolvedor Front-End</p>
           <p className='subtitle'>Eu desenho e codifico coisas lindamente simples e amo o que faço.</p>

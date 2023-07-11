@@ -21,6 +21,9 @@
   color:  white;
   font-family: var(--font-secundary);
   font-style: italic !important;
+  @media (max-width:768px) {
+    font-size: 2rem;
+  }
   
 }
 .text {
@@ -68,22 +71,33 @@ img {
   width: 100%;
 }
 span{
-  display: inline-flex;
+  display: flex;
   margin: 0 !important;
+  text-align: center;
+  
+  .icon {
+  margin-left: 10px;
+  position: relative;
+  animation: shake 4s infinite;
+  font-size: 2rem;
+  color: rgb(255, 206, 12);
+    @media (max-width:768px) {
+      font-size: 1.8rem;
+    }
+  }
   
   h1 {
     font-size: 6rem;
     font-family: var(--font-primary);
     color: white;
+    text-align: center;
     @media (max-width: 991px) {
       font-size: 4rem;
-      text-align: center !important;
+      text-align: center;
     }
     @media (max-width: 628px) {
-      font-size: 4rem;
-      text-align: center ;
+      font-size: 3rem;
     }
-    
     
   }
 }
@@ -164,19 +178,6 @@ span{
 }
 
 
-.icon {
-  margin-left: 10px !important;
-  margin-right: 10px; /* Adicione esta linha */
-  top: 12px;
-  position: relative;
-  animation: shake 4s infinite;
-  margin-top: 50px;
-  font-size: 2rem;
-  color: rgb(255, 206, 12);
-  @media (max-width:991px) {
-  
-  }
-}
 
 
 .iconAudio{
