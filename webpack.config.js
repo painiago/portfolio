@@ -36,18 +36,7 @@ module.exports = {
       {
         test: /\.scss$/,
         exclude: /node_modules/,
-        use: [
-          'style-loader',
-          'css-loader',
-          {
-            loader: 'resolve-url-loader',
-            options: {
-              sourceMap: true,
-              root: path.resolve(__dirname, 'src'),
-            },
-          },
-          'sass-loader',
-        ],
+        use: ['style-loader', 'css-loader', 'sass-loader'],
       },
       {
         test: /\.(png|jpe?g|gif|ttf)$/i,
@@ -57,8 +46,6 @@ module.exports = {
             options: {
               name: '[name].[hash].[ext]',
               esModule: false,
-              outputPath: 'assets',
-              publicPath: 'assets',
             },
           },
         ],
@@ -71,12 +58,12 @@ module.exports = {
             options: {
               name: 'videos/[name].[hash].[ext]',
               esModule: false,
-              outputPath: 'assets',
-              publicPath: 'assets',
             },
           },
         ],
       },
+      // { test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+      //  loader: 'url-loader?limit=100000' }
     ],
   },
 };
