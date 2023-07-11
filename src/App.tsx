@@ -31,6 +31,7 @@ function App() {
         <link rel="apple-touch-icon" href={favicon} />
         <link rel="icon" href={favicon} />
         <link rel="preconnect" href={linkg}/>
+        <link rel="stylesheet" href="/public/static/fonts/stylesdesigner.scss"/>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"/>
       </Helmet>
 
