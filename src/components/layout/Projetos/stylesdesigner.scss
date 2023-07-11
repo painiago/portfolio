@@ -1,11 +1,11 @@
 @import url("https://use.typekit.net/jtg5uxq.css");
 @import url("https://use.typekit.net/vmn5sac.css");
 @import url("https://use.typekit.net/zer6fll.css");
-
+@import url('https://fonts.cdnfonts.com/css/the-californication');
 
 @font-face {
   font-family: 'The Californication';
-  src: url('../../../fonts/The Californication.ttf') format('truetype');
+  src: local('The Californication'),url('../../../fonts/The Californication.ttf') format('truetype');
 }
 
 /* Restante do seu código CSS */
