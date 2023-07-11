@@ -5,6 +5,7 @@ import './stylesdesigner.scss';
 import img1 from '/public/img/pfinal.png';
 import img2 from '/public/img/ss2.png';
 import img3 from '/public/img/construcao.png';
+import '../../../fonts/TheCalifornication.ttf';
 
 import projectsData from '../../../api/design.json';
 
