@@ -13,7 +13,7 @@ import Skills from './components/layout/Skills/Skills';
 import Curriculo from './components/curriculo/curriculo';
 import ProjetosDesigner from './components/layout/Projetos/sectiondesigner';
 import { Helmet} from 'react-helmet'
-import './fonts/TheCalifornication.ttf';
+import './fonts/The Californication.ttf';
 
 import favicon from '../public/img/iconfav.png'
 const linkg = 'https://fonts.googleapis.com';
