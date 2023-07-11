@@ -109,9 +109,7 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  @media (max-width:991px) {
-    grid-gap: 4rem !important;
-  }
+  
   @media (max-width:768px) {
     grid-gap: 4rem !important;
   }
@@ -128,6 +126,12 @@
     align-items: center;
     grid-template-columns: 1fr;
     flex-direction: column;
+    grid-gap: 4rem !important;
+  }
+}
+@media (max-width:768px) {
+  .projects-grid1{
+    grid-gap: 4rem !important;
   }
 }
 
