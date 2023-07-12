@@ -12,10 +12,7 @@ function Skills (){
       {/* <h2>Olá, sou o Iago. Prazer em conhecê-lo</h2> */}
       <h2>Prazer em conhecê-lo</h2>
       <div className="containerDescription">
-        <p className="descricao">Trabalho como designer e freelancer, crio
-          produtos digitais para uso comercial e de consumo. Estou sempre
-          confiante, naturalmente curioso e trabalhando para resolver um
-          problema de designer de cada vez. </p>
+        <p className="descricao">Sou um freelancer desenvolvedor front-end, especializado em criar experiências digitais incríveis. Tenho uma abordagem colaborativa e estou aberto a compartilhar ideias para desenvolver produtos excepcionais. Com confiança e curiosidade natural, estou constantemente trabalhando para resolver bugs e problemas, um de cada vez.</p>
         </div>
         
       <div className="content">
@@ -28,7 +25,7 @@ function Skills (){
           <p className="titulo">Idiomas que falo:</p>
           <p>HTML, CSS, Sass, Git, JS, React.js</p>
           <p className="titulo">Ferramentas do desenvolvedor:</p>
-          <ul>
+          <ul>  
             <li>Atom</li>
             <li>Bootstrap</li>
             <li>Github</li>
