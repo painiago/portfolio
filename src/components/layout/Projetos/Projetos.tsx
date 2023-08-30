@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './projeto.scss';
 import img1 from '/public/img/arquitetura.png';
 import img2 from '/public/img/exhouse2.png';
-import img3 from '/public/img/construcao1.png';
+import img3 from '/public/img/guiajs2.png';
 
 import projectsData from '../../../api/projects.json';
 

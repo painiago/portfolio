@@ -5,7 +5,7 @@
     "title": "Projeto arquitetura",
     "subtitle": "Tecnologias Utilizadas",
     "tec1": "React",
-    "tec2": "Sass",
+    "tec2": "Scss",
     "tec3": "Webpack",
     "link": "https://portifolioarquitetura.netlify.app/"
   },
@@ -15,7 +15,7 @@
     "title": "Exhouse Construtora",
     "subtitle": "Tecnologias Utilizadas",
     "tec1": "React",
-    "tec2": "Sass",
+    "tec2": "Scss",
     "tec3": "Webpack",
     "link": "https://exhouseconstrutora.netlify.app/"
 
@@ -23,12 +23,12 @@
   {
     "id": 3,
     "imagem": "/public/img/under.jpg",
-    "title": "Projeto Web",
+    "title": "Guia JavaScript",
     "subtitle": "Tecnologias Utilizadas",
-    "tec1": "Em construção",
-    "tec2": "",
-    "tec3": "",
-    "link": "#project"
+    "tec1": "Next",
+    "tec2": "Scss",
+    "tec3": "TypeScript",
+    "link": "https://guiajavascript.vercel.app/"
 
   }
 ]
