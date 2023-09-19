@@ -1,5 +1,4 @@
 import './Skills.scss'
-
 import { faCubes, faLaptop } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
@@ -13,8 +12,7 @@ function Skills (){
       <h2>Prazer em conhecê-lo</h2>
       <div className="containerDescription">
         <p className="descricao">Sou um freelancer desenvolvedor front-end, especializado em criar experiências digitais incríveis. Tenho uma abordagem colaborativa e estou aberto a compartilhar ideias para desenvolver produtos excepcionais. Com confiança e curiosidade natural, estou constantemente trabalhando para resolver bugs e problemas, um de cada vez.</p>
-        </div>
-        
+        </div> 
       <div className="content">
         <div className="column">
           <span className="styles.fa">
@@ -53,6 +51,5 @@ function Skills (){
     </div>
   )
 }
-
 export default Skills;
 

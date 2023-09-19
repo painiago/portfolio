@@ -1,7 +1,6 @@
 // import ScrollColorChange from './ScrollColorChange';
 import  './NavBar.scss';
 
-
 function NavBar (){
   return (
     <nav className="navbar">
@@ -19,7 +18,6 @@ function NavBar (){
     </nav>
   )
 }
-
 export default NavBar;
 
 

@@ -8,7 +8,6 @@ export default function Curriculo() {
   const handleDownload = () => {
     window.open(curriculoPDFUrl, "_blank");
   };
-
   return (
     <div className="ContainerCurriculo">
       <div className="ContentCurriculo">  

@@ -8,7 +8,6 @@ function Contato(){
         <h2 className='contatoh2'> CONTATO </h2>
         <p >Você pode entrar em contato comigo através de qualquer uma das minhas redes sociais.</p>
         <div className="contact-link">
-          {/* <a className="btn btn-outline-light btn-floating m-1" target="_blank" href="#!" role="button"><i className="fab fa-instagram iconSize"></i></a> */}
           <a className="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.linkedin.com/in/iagonascimento/" role="button"><i className="fab fa-linkedin-in iconSize"></i></a>
           <a className="btn btn-outline-light btn-floating m-1" target="_blank" href="https://github.com/painiago" role="button"><i className="fab fa-github iconSize"></i></a>
         </div>
@@ -19,7 +18,6 @@ function Contato(){
         </a>
       </div>
     </section>
-    
   )
 }
 export default Contato;

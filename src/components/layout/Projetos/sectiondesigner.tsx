@@ -3,15 +3,13 @@ import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './stylesdesigner.scss';
 import img1 from '/public/img/pfinal.png';
-import img2 from '/public/img/ss2.png';
+import img2 from '/public/img/ss22.png';
 import img3 from '/public/img/construcao.png';
 import '../../../../public/static/fonts/The Californication.ttf';
-
 import projectsData from '../../../api/design.json';
 
 function ProjetosDesigner() {
   const [selectedProjects, setSelectedProjects] = useState<number[]>([]);
-
   const handleIconClick = (projectId: number) => {
     setSelectedProjects((prevSelectedProjects) => {
       if (prevSelectedProjects.includes(projectId)) {
@@ -21,11 +19,9 @@ function ProjetosDesigner() {
       }
     });
   };
-
   const isProjectSelected = (projectId: number) => {
     return selectedProjects.includes(projectId);
   };
-
 
   return (
     <section className="projects-section1 " id="projects1">
@@ -39,12 +35,12 @@ function ProjetosDesigner() {
             <div className="project-title1" key={project.id}>
               <div className="testhover1">
                 <a href={project.link} target="_blank" className="project">
-                  {project.id === 1 && <img src={img1} alt="projeto" className="project-image1" />}
-                  {project.id === 2 && <img src={img2} alt="projeto" className="project-image1" />}
+                  {project.id === 1 && <img src={img1} alt="projeto" className="project-image1" loading="lazy" />}
+                  {project.id === 2 && <img src={img2} alt="projeto" className="project-image1" loading="lazy"/>}
                   {/* {project.id === 3 && <img src={img3} alt="projeto" className="project-image1" />} */}
                 </a>
                 <a href={project.link} className="project">
-                {project.id === 3 && <img src={img3} alt="projeto" className="project-image1" />}
+                {project.id === 3 && <img src={img3} alt="projeto" className="project-image1" loading='lazy' />}
                 </a>
                 <div className="containerbar1">
                   <div className="containerbar__content1">
@@ -94,5 +90,4 @@ function ProjetosDesigner() {
     </section>
   );
 }
-
 export default ProjetosDesigner;
