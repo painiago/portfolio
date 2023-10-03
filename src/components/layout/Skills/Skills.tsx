@@ -11,7 +11,7 @@ function Skills (){
       {/* <h2>Olá, sou o Iago. Prazer em conhecê-lo</h2> */}
       <h2>Prazer em conhecê-lo</h2>
       <div className="containerDescription">
-        <p className="descricao">Sou um freelancer desenvolvedor front-end, especializado em criar experiências digitais incríveis. Tenho uma abordagem colaborativa e estou aberto a compartilhar ideias para desenvolver produtos excepcionais. Com confiança e curiosidade natural, estou constantemente trabalhando para resolver bugs e problemas, um de cada vez.</p>
+        <p className="descricao">Eu sou um freelancer desenvolvedor front-end com foco em criar ótimas experiências digitais. Tenho uma abordagem colaborativa e estou sempre aberto a compartilhar ideias para criar produtos excepcionais. Com confiança e curiosidade natural, estou constantemente trabalhando para resolver bugs e problemas, um de cada vez.</p>
         </div> 
       <div className="content">
         <div className="column">
@@ -37,7 +37,7 @@ function Skills (){
           <h2>Designer</h2>
           <p> Valorizo a estrutura de conteúdo simples, padrões de design limpos e interações ponderadas.</p>
           <p className="titulo">Coisas que eu gosto de projetar:</p>
-          <p>Web, Logotipos</p>
+          <p>Web</p>
           <p className="titulo">Ferramentas de design:</p>
           <ul>
             <li>Figma</li>
