@@ -4,20 +4,22 @@
     "imagem": "/public/img/arquitetura.png",
     "title": "Projeto arquitetura",
     "subtitle": "Tecnologias Utilizadas",
-    "tec1": "React",
+    "tec1": "React | Scss | Webpack",
     "tec2": "Scss",
     "tec3": "Webpack",
-    "link": "https://portifolioarquitetura.netlify.app/"
+    "link": "https://portifolioarquitetura.netlify.app/",
+    "repo": "https://github.com/painiago/projectarquitetura"
   },
   {
     "id": 2,
     "imagem": "/public/img/exhouse2.png",
     "title": "Exhouse Construtora",
     "subtitle": "Tecnologias Utilizadas",
-    "tec1": "React",
+    "tec1": "React | Scss | Webpack",
     "tec2": "Scss",
     "tec3": "Webpack",
-    "link": "https://exhouseconstrutora.netlify.app/"
+    "link": "https://exhouseconstrutora.netlify.app/",
+    "repo": "https://github.com/painiago/projetoconstrutora"
 
   },
   {
@@ -25,10 +27,11 @@
     "imagem": "/public/img/under.jpg",
     "title": "Guia JavaScript",
     "subtitle": "Tecnologias Utilizadas",
-    "tec1": "Next",
+    "tec1": "Next | Scss | TypeScript",
     "tec2": "Scss",
     "tec3": "TypeScript",
-    "link": "https://guiajavascript.vercel.app/"
+    "link": "https://guiajavascript.vercel.app/",
+    "repo": "https://github.com/painiago/guiajavascript"
 
   }
 ]

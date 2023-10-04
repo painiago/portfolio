@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+
 import './projeto.scss';
 import img1 from '/public/img/arquitetura.png';
 import img2 from '/public/img/exhouse2.png';
@@ -43,7 +45,7 @@ function Projetos() {
                 <div className="containerbar">
                   <div className="containerbar__content">
                      <a href={project.link} target="_blank" >
-                      <p>{project.title}</p>
+                       <p>Visitar site</p>
                     </a>
                     {isProjectSelected(project.id) ? (
                       <FontAwesomeIcon icon={faTimes} className="rotateicon" onClick={() => handleIconClick(project.id)}
@@ -64,7 +66,7 @@ function Projetos() {
                         <p>{project.subtitle}</p>
                       </div>
                     </li>
-                    <li>
+                    {/* <li>
                       <div className="boxcircle">
                         <p>{project.tec1}</p>
                       </div>
@@ -73,10 +75,11 @@ function Projetos() {
                       <div className="boxcircle">
                         <p>{project.tec2}</p>
                       </div>
-                    </li>
+                    </li> */}
                     <li>
                       <div className="boxcircle">
-                        <p>{project.tec3}</p>
+                        <p>{project.tec1}</p>
+                        <a href={project.repo} target='_blank'><FontAwesomeIcon icon={faGithub} />Repositorio GIT</a>
                       </div>
                     </li>
                   </ul>

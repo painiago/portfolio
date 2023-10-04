@@ -53,7 +53,7 @@ div,
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     color: rgb(0, 0, 0);
-    background-color: hsl(0, 0%, 100%);
+    // background-color: hsl(0, 0%, 100%);
     text-align: center !important;
     filter: blur(50%);    
     }
@@ -65,12 +65,18 @@ div,
   align-items: center;
   justify-content: center;
   width: 100%;
+
+  
 }
 
 .containerbar__content p {
   text-align: center;
   flex-grow: 1;
+  text-transform:initial !important;
+  // font-size: 1.5rem !important;
+ 
 }
+
 .containerbar__content a {
   text-align: center;
   flex-grow: 1;
@@ -234,6 +240,16 @@ div,
 .boxcircle{
   text-align: center;
   border-radius: 16px;
+  a{
+    
+    &:hover{
+      border-bottom: 1px solid white;
+    }
+    svg{
+      margin-right: 5px;
+      margin-top: 10px;
+    }
+  }
   p:nth-of-type(1){
     padding: 0;
     font-size: 1.4rem;
@@ -241,9 +257,7 @@ div,
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     color: rgb(255, 255, 255); 
-    
-     
-    } 
+  } 
   
 }
 .btn {

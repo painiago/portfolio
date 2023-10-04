@@ -82,6 +82,13 @@
 .containerbar__content1 a {
   text-align: center;
   flex-grow: 1;
+  
+}
+.containerbar__content1 p {
+  text-align: center;
+  flex-grow: 1;
+  text-transform:initial !important;
+  
 }
 
 .containerbar__content1 svg {
