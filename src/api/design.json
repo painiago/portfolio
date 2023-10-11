@@ -22,13 +22,13 @@
   },
   {
     "id": 3,
-    "imagem": "/public/img/pfinal.jpg",
-    "title": "Projeto Web",
+    "imagem": "/public/img/metacripto.png",
+    "title": "Meta Cripto",
     "subtitle": "Ferramenta utilizada",
-    "tec1": "Em construção",
+    "tec1": "Figma",
     "tec2": "",
     "tec3": "",
-    "link": "#project"
+    "link": "https://www.behance.net/gallery/181839191/Landing-page"
 
   }
 ]

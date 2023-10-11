@@ -15,7 +15,7 @@
     "imagem": "/public/img/exhouse2.png",
     "title": "Exhouse Construtora",
     "subtitle": "Tecnologias Utilizadas",
-    "tec1": "React | Scss | Webpack",
+    "tec1": "React | Scss | Webpack | TypeScript",
     "tec2": "Scss",
     "tec3": "Webpack",
     "link": "https://exhouseconstrutora.netlify.app/",
@@ -33,5 +33,18 @@
     "link": "https://guiajavascript.vercel.app/",
     "repo": "https://github.com/painiago/guiajavascript"
 
+  },
+  {
+    "id": 4,
+    "imagem": "/public/img/under.jpg",
+    "title": "Guia JavaScript",
+    "subtitle": "Tecnologias Utilizadas",
+    "tec1": "Next | Styled-Components | TypeScript",
+    "tec2": "Scss",
+    "tec3": "TypeScript",
+    "link": "https://metacripto.vercel.app/",
+    "repo": "https://github.com/painiago/landingpage"
+
   }
+  
 ]

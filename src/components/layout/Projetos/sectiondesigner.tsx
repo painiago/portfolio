@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './stylesdesigner.scss';
 import img1 from '/public/img/pfinal.png';
 import img2 from '/public/img/ss22.png';
-import img3 from '/public/img/construcao.png';
+import img3 from '/public/img/metacripto.png';
 import '../../../../public/static/fonts/The Californication.ttf';
 import projectsData from '../../../api/design.json';
 

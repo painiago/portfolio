@@ -25,11 +25,12 @@ div,
   text-align: center;
   padding: 10rem 2rem;
   background: var(--main-white-1);
- 
+  overflow: hidden;
+
 }
 
 .projects-section-header {
-  max-width: 640px;
+  max-width: 1000px;
   margin: 0 auto 6rem auto;
   border-bottom: 0.2rem solid var(--main-black);
   
@@ -178,8 +179,9 @@ div,
 
 .project-image {
   height: calc(100% - 20.8rem);
-  width: 100%;
+  max-width: 100%;
   object-fit: cover;
+  
 }
 
 .rotateicon {
@@ -199,7 +201,24 @@ div,
   max-width: 200px !important;
   border: 1px solid #d9d8d8;
 }
+.project {
+  flex: 1;
+  // margin: 0 10px; /* Ajuste as margens conforme necessário */
+}
 .project-title {
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  max-width: 420px;
+  display: flex;
+  padding: 10px;
+  
+@media (max-width:768px) {
+  padding: 7px;
+}
+  @media (max-width:400px) {
+    max-width: 320px;
+  }
   
   p{
     font-size: 2rem;
@@ -216,7 +235,7 @@ div,
     
   ul{
     width: 100%;
-    height: 77%;
+    height:79%;
     background-color: rgba(0, 0, 0, 0.8);
     text-align: start;
     cursor:default;
@@ -231,6 +250,9 @@ div,
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.3s ease;
+    @media (max-width:420px) {
+      height:75%;
+    }
     li{
       font-size: 1.4rem;
       font-weight: 500;
@@ -297,4 +319,69 @@ div,
   height: 50px;
   background-color: rebeccapurple;
 }
+
+//Swiper
+
+/* Estilização da barra de rolagem */
+::-webkit-scrollbar {
+  width: 10px; /* Largura da barra de rolagem */
+}
+
+/* Rode a barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background-color: #6d07f355; /* Cor da barra de rolagem */
+  border-radius: 10px; /* Borda arredondada */
+}
+
+.swiper-wrapper{
+  
+  display: flex;
+  overflow-x: scroll; /* Adicione uma barra de rolagem horizontal */
+  scroll-snap-type: x mandatory; /* Isso permite que os slides se comportem como um carrossel */
+  -webkit-overflow-scrolling: touch; /* Suporte de rolagem suave em dispositivos móveis */
+ 
+  @media (max-width:468px) {
+  padding-left: 10px;
+}
+}
+.swiper-slide{
+  
+  max-width: none; 
+  height: auto;
+  scroll-snap-align: start; /* Faz cada slide parar no início da janela de visualização */
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  @media (max-width:768px) {
+    width: 100% ;
+    margin-left: -30px;
+    padding-left: 10px !important;
+
+    
+  }
+
+}
+
+
+/* Restante do seu CSS ... */
+
+
+/* Estilos para o slide */
+.slide-container {
+  
+  display: flex;
+  overflow-x: hidden; /* Adicione uma barra de rolagem horizontal */
+  scroll-snap-type: x mandatory; /* Isso permite que os slides se comportem como um carrossel */
+  -webkit-overflow-scrolling: touch; /* Suporte de rolagem suave em dispositivos móveis */
+}
+
+.slide {
+  
+  max-width: 370px;
+  
+  scroll-snap-align: start; /* Faz cada slide parar no início da janela de visualização */
+  flex-shrink: 0; /* Evita que os slides sejam reduzidos em tamanho */
+}
+
+/* Estilos para o conteúdo do slide (seguindo o seu projeto) */
 

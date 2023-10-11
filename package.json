@@ -21,10 +21,12 @@
     "file-loader": "^6.2.0",
     "formik": "^2.2.9",
     "glider-js": "^1.7.8",
+    "latest": "^0.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "sass": "^1.62.1",
+    "swiper": "10",
     "url-loader": "^4.1.1",
     "web-vitals": "^3.3.1",
     "yup": "^1.1.1"
