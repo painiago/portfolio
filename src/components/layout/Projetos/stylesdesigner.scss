@@ -114,8 +114,9 @@
   transform: scale(1);
   cursor: pointer;
   border: 1px solid #cdcaca;
-  
-
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column; 
 }
 
 .testhover1:hover {
@@ -127,21 +128,18 @@
 .projects-grid1 {
   display: flex;
   text-align: center;
-  gap: 3rem;
   max-width: 1200px;
   margin: 0 auto;
   padding: 3rem;
+  gap: 2rem;
   @media screen and  (max-width:768px) {
-    gap: 3rem !important;
     flex-direction: column;
-  }
-  @media screen and  (max-width:368px) {
-    gap: 3rem !important;
   }
 }
 
 @media screen and (max-width: 1091px) {
   .projects-section1 {
+    
     padding: 6rem 2rem;
   }
   
