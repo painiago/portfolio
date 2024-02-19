@@ -36,6 +36,10 @@ module.exports = {
         use: ['style-loader', 'css-loader', 'sass-loader'],
       },
       {
+        test: /\.css$/, // Adicionando regra para processar arquivos CSS
+        use: ['style-loader', 'css-loader'],
+      },
+      {
         test: /\.(png|jpe?g|gif|ttf)$/i,
         use: [
           {

@@ -36,10 +36,10 @@ ul{
   }
 }
 .containerDescription{
-  max-width: 800px;
+  max-width: 1000px;
   height: 0 auto;
   display: flex;  
-  padding: 3rem;
+  padding: 1.4rem;
   margin: 0 auto;
 }
 .descricao{
@@ -47,7 +47,7 @@ ul{
   display: flex;
   justify-content: center !important;
   align-items: center !important;
-  text-align: justify;
+  text-align:center;
 }
 
 .content{

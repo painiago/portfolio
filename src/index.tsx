@@ -12,4 +12,4 @@ if (rootElement) {
   );
 }
 
-reportWebVitals(console.log);
+// reportWebVitals(console.log);

@@ -11,7 +11,7 @@ function Skills (){
       {/* <h2>Olá, sou o Iago. Prazer em conhecê-lo</h2> */}
       <h2>Prazer em conhecê-lo</h2>
       <div className="containerDescription">
-        <p className="descricao">Olá, meu nome é Iago Nascimento, tenho 25 anos e sou um desenvolvedor front-end.  Atualmente, minha especialização está no desenvolvimento front-end de websites.
+        <p className="descricao">Olá, meu nome é Iago Nascimento, tenho 26 anos e sou um desenvolvedor front-end.  Atualmente, minha especialização está no desenvolvimento front-end de websites.
 Tenho uma abordagem colaborativa e adoro compartilhar ideias para criar produtos excepcionais. Sou movido pela confiança e curiosidade, constantemente buscando resolver bugs e desafios.
 Meu objetivo é entregar resultados de qualidade que superem as expectativas dos clientes. Estou empolgado para continuar aprimorando minhas habilidades e enfrentando novos desafios no mundo do desenvolvimento.
 Se você estiver interessado em colaborar ou tiver alguma pergunta, fique à vontade para entrar em contato comigo. </p>

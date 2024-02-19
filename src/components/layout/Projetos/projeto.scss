@@ -74,11 +74,14 @@ div,
   text-align: center;
   flex-grow: 1;
   text-transform:initial !important;
+  font-size: 1.6rem !important;
   // font-size: 1.5rem !important;
   &:hover{
     color: #707070;
   }
- 
+ @media screen and (max-width:768px) {
+  font-size: 1.6rem !important;
+}
 }
 
 .containerbar__content a {
@@ -89,9 +92,10 @@ div,
 .containerbar__content svg {
   margin-left: 0.5rem;
   margin-right: 2rem;
-  background-color: #fff;
   flex-shrink: 0;
   width: 1.5rem;
+  z-index: 9999999999;
+  
 }
 
 .testhover {
@@ -186,6 +190,12 @@ div,
 
 .rotateicon {
   transition: transform 0.3s ease-in-out;
+  color: rgb(161, 157, 163);
+  :hover{
+    color: rgba(195, 191, 196, 0.607);
+    transition: transform .1s ease-in-out;
+  }
+
 }
 
 .containerbarline {
@@ -203,23 +213,24 @@ div,
 }
 .project {
   flex: 1;
+
   // margin: 0 10px; /* Ajuste as margens conforme necessário */
 }
 .project-title {
   display: flex !important;
   flex-direction: row;
   align-items: center;
-  max-width: 420px;
+  max-width: 400px;
   display: flex;
   padding: 10px;
   
 @media (max-width:768px) {
-  padding: 7px;
+  padding: 5px 8px;
 }
-  @media (max-width:400px) {
+@media (max-width:400px) {
     max-width: 320px;
-  }
-  
+}
+
   p{
     font-size: 2rem;
     padding: 2rem 0.5rem;
@@ -235,7 +246,7 @@ div,
     
   ul{
     width: 100%;
-    height:79%;
+    height: 100% !important;
     background-color: rgba(0, 0, 0, 0.8);
     text-align: start;
     cursor:default;
@@ -315,7 +326,7 @@ div,
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
+  width: 200px !important;
   height: 50px;
   background-color: rebeccapurple;
 }
@@ -339,25 +350,30 @@ div,
   overflow-x: scroll; /* Adicione uma barra de rolagem horizontal */
   scroll-snap-type: x mandatory; /* Isso permite que os slides se comportem como um carrossel */
   -webkit-overflow-scrolling: touch; /* Suporte de rolagem suave em dispositivos móveis */
- 
-  @media (max-width:468px) {
-  padding-left: 10px;
+  @media screen and (max-width:468px) {
+  // padding-left: 10px;
+}
+@media screen and (max-width:322px) {
+  // flex-direction: column;
 }
 }
 .swiper-slide{
-  
+  width: auto;
   max-width: none; 
   height: auto;
   scroll-snap-align: start; /* Faz cada slide parar no início da janela de visualização */
   flex-shrink: 0;
   display: flex;
   align-items: center;
-  @media (max-width:768px) {
-    width: 100% ;
-    margin-left: -30px;
-    padding-left: 10px !important;
-
+  @media  screen and (max-width:768px) {
+    // width: 100% ;
+    // margin-left: -20px;
+  }
+  @media screen and (max-width: 325px) {
     
+    // width: 100% ;
+    // margin-left: -20px;
+    // padding-left: 0px;
   }
 
 }
@@ -365,20 +381,42 @@ div,
 
 /* Estilos para o slide */
 .slide-container {
-  
+  max-width: 100% !important;
   display: flex;
-  overflow-x: hidden; /* Adicione uma barra de rolagem horizontal */
+  overflow-x: auto; /* Adicione uma barra de rolagem horizontal */
   scroll-snap-type: x mandatory; /* Isso permite que os slides se comportem como um carrossel */
   -webkit-overflow-scrolling: touch; /* Suporte de rolagem suave em dispositivos móveis */
+  @media screen and (max-width: 400px) {
+    max-width: 320px !important;
+  }
 }
 
 .slide {
   
-  max-width: 370px;
-  
   scroll-snap-align: start; /* Faz cada slide parar no início da janela de visualização */
-  flex-shrink: 0; /* Evita que os slides sejam reduzidos em tamanho */
+  flex-shrink: 0 !important; /* Evita que os slides sejam reduzidos em tamanho */
+
 }
 
-/* Estilos para o conteúdo do slide (seguindo o seu projeto) */
 
+/* Estilos para o conteúdo do slide (seguindo o seu projeto) */
+.swiper-navigation{
+}
+
+.swiper-button-prev{
+  padding: 10px 15px;
+  margin-right: 10px;
+  border-radius: 50px;
+  border: 1px solid #cdcaca;
+  background-color: transparent;
+  cursor: pointer;
+  
+}
+.swiper-button-next{
+  padding: 10px 15px;
+  margin-right: 10px;
+  border-radius: 50px;
+  border: 1px solid #cdcaca;
+  background-color: transparent;
+  cursor: pointer;
+}
