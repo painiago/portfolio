@@ -347,9 +347,9 @@ div,
 .swiper-wrapper{
   
   display: flex;
-  overflow-x: scroll; /* Adicione uma barra de rolagem horizontal */
+  overflow-x: hidden; /* Adicione uma barra de rolagem horizontal */
   scroll-snap-type: x mandatory; /* Isso permite que os slides se comportem como um carrossel */
-  -webkit-overflow-scrolling: touch; /* Suporte de rolagem suave em dispositivos móveis */
+  -webkit-overflow-scrolling: touch !important; /* Suporte de rolagem suave em dispositivos móveis */
   @media screen and (max-width:468px) {
   // padding-left: 10px;
 }
@@ -384,14 +384,16 @@ div,
   max-width: 100% !important;
   display: flex;
   scroll-behavior: smooth;
-  overflow-x: hidden; /* Adicione uma barra de rolagem horizontal */
+  overflow-x: scroll; /* Adicione uma barra de rolagem horizontal */
   scroll-snap-type: x mandatory; /* Isso permite que os slides se comportem como um carrossel */
   -webkit-overflow-scrolling: touch; /* Suporte de rolagem suave em dispositivos móveis */
   @media screen and (max-width: 400px) {
     max-width: 320px !important;
   }
 }
-
+.slide-container::-webkit-scrollbar {
+  display: none; /* Oculta a barra de rolagem no Chrome, Safari e Edge */
+}
 .slide {
   
   scroll-snap-align: start; /* Faz cada slide parar no início da janela de visualização */
@@ -438,12 +440,15 @@ div,
 .scroll-right-button {
   position: relative;
   padding: 10px 15px;
-  margin-right: 10px;
+  margin-right: 30px;
   border-radius: 50px;
   border: 1px solid #e9e7e7;
   background-color: transparent;
   cursor: pointer;
   overflow: hidden;
+}
+.scroll-left-button{
+  margin-left: 30px;
 }
 
 .scroll-left-button::before,

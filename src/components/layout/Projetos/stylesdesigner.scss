@@ -127,12 +127,12 @@
 .projects-grid1 {
   display: flex;
   text-align: center;
-  grid-gap: 4rem;
+  gap: 3rem;
   max-width: 1200px;
   margin: 0 auto;
   padding: 3rem;
   @media screen and  (max-width:768px) {
-    grid-gap: 4rem;
+    
     flex-direction: column;
   }
 }
