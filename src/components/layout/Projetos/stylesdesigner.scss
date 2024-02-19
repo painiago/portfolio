@@ -132,8 +132,11 @@
   margin: 0 auto;
   padding: 3rem;
   @media screen and  (max-width:768px) {
-    
+    gap: 3rem !important;
     flex-direction: column;
+  }
+  @media screen and  (max-width:368px) {
+    gap: 3rem !important;
   }
 }
 
