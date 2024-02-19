@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { faAngleLeft, faAngleRight, faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import React, { useState, useRef } from 'react';
+import { faAngleLeft, faAngleRight, faBars, faHandPointer, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import './projeto.scss';
@@ -11,7 +11,8 @@ import projectsData from '../../../api/projects.json';
 
 function Projetos() {
   const [selectedProjects, setSelectedProjects] = useState<number[]>([]);
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const scrollRef = useRef<HTMLDivElement>(null);
 
   const handleIconClick = (projectId: number) => {
     setSelectedProjects((prevSelectedProjects) => {
@@ -27,12 +28,18 @@ function Projetos() {
     return selectedProjects.includes(projectId);
   };
 
-  const goToPrevSlide = () => {
-    setCurrentIndex((prevIndex) => Math.max(prevIndex - 1, 0));
+  const scrollToLeft = () => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollLeft -= 200; // Adjust the scroll amount as needed
+      setScrollPosition(scrollRef.current.scrollLeft);
+    }
   };
 
-  const goToNextSlide = () => {
-    setCurrentIndex((prevIndex) => Math.min(prevIndex + 1, projectsData.length - 1));
+  const scrollToRight = () => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollLeft += 200; // Adjust the scroll amount as needed
+      setScrollPosition(scrollRef.current.scrollLeft);
+    }
   };
 
   return (
@@ -42,9 +49,9 @@ function Projetos() {
         <h2 className='desh1'>PROJETOS</h2>
         <div className="line"></div>
       </div>
-      <div className='slide-container'>
-        {projectsData.map((project, index) => (
-          <div key={project.id} className={`swiper-slide ${index === currentIndex ? 'active' : ''}`}>
+      <div className='slide-container' ref={scrollRef}>
+        {projectsData.map((project) => (
+          <div key={project.id} className={`swiper-slide`}>
             <div className="project-title">
               <div className="testhover">           
                 <a href={project.link} target="_blank" className="project">
@@ -52,6 +59,7 @@ function Projetos() {
                     <img src={project.id === 1 ? img1 : project.id === 2 ? img2 : project.id === 3 ? img3 : img4} alt="projeto" className="project-image" loading="lazy" />
                   }
                 </a>
+               
                 <div className="containerbar">
                   <div className="containerbar__content">
                     <a href={project.link} target="_blank" >
@@ -83,6 +91,15 @@ function Projetos() {
             </div>
           </div>
         ))}
+        
+      </div>
+      <div className="navigation-buttons">
+        <button className="scroll-left-button" onClick={scrollToLeft}>
+        <FontAwesomeIcon icon={faAngleLeft} />
+        </button>
+        <button className="scroll-right-button" onClick={scrollToRight}>
+        <FontAwesomeIcon icon={faAngleRight} />
+        </button>
       </div>
     </section>
   );
