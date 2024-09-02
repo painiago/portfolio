@@ -10,6 +10,7 @@ function Contato(){
         <div className="contact-link">
           <a className="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.linkedin.com/in/iagonascimento/" role="button"><i className="fab fa-linkedin-in iconSize"></i></a>
           <a className="btn btn-outline-light btn-floating m-1" target="_blank" href="https://github.com/painiago" role="button"><i className="fab fa-github iconSize"></i></a>
+          <a className="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.behance.net/iagonascimento6/" role="button"><i className="fa-brands fa-behance iconSize"></i></a>
         </div>
       </div>
       <div className="animacao-rotacao">
