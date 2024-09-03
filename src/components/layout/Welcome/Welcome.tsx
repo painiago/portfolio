@@ -19,8 +19,9 @@ return (
           <p className='subtitle'>Eu desenho e codifico coisas lindamente simples e amo o que faço.</p>
           <SettingAudio/> 
           <div className="contact-linkwelcome">
-          <a className="btnwelcome btn-outline-light btn-floating m-1" target="_blank" href="https://www.linkedin.com/in/iagonascimento/" role="button"><i className="fab fa-linkedin-in iconSize"></i></a>
-          <a className="btnwelcome btn-outline-light btn-floating m-1" target="_blank" href="https://github.com/painiago" role="button"><i className="fab fa-github iconSize"></i></a>
+          <a className="btnwelcome btn-outline-light btn-floating m-1" target="_blank" href="https://www.linkedin.com/in/iagonascimento/" role="button"><i className="fab fa-linkedin-in "></i></a>
+          <a className="btnwelcome btn-outline-light btn-floating m-1" target="_blank" href="https://github.com/painiago" role="button"><i className="fab fa-github "></i></a>
+          <a className="btnwelcome btn-outline-light btn-floating m-1" target="_blank" href="https://www.behance.net/iagonascimento6/" role="button"><i className="fa-brands fa-behance "></i></a>
         </div>
         </div>
         <div className='bg one'>
