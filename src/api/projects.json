@@ -1,14 +1,16 @@
 [
   {
-    "id": 1,
-    "imagem": "/public/img/arquitetura.png",
-    "title": "Projeto arquitetura",
+    "id": 4,
+    "imagem": "/public/img/viral.png",
+    "title": "Do Zero Ao Viral",
     "subtitle": "Tecnologias Utilizadas",
-    "tec1": "React | Scss | Webpack",
+    "tec1": "Next | SCSS | TypeScript",
     "tec2": "Scss",
-    "tec3": "Webpack",
-    "link": "https://portifolioarquitetura.netlify.app/",
-    "repo": "https://github.com/painiago/projectarquitetura"
+    "tec3": "TypeScript",
+    "link": "https://dozeroaoviral.vercel.app/",
+    "repo": "https://github.com/painiago/dozeroaoviral"
+
+    
   },
   {
     "id": 2,
@@ -35,15 +37,15 @@
 
   },
   {
-    "id": 4,
-    "imagem": "/public/img/under.jpg",
-    "title": "Guia JavaScript",
+    "id": 1,
+    "imagem": "/public/img/arquitetura.png",
+    "title": "Projeto arquitetura",
     "subtitle": "Tecnologias Utilizadas",
-    "tec1": "Next | Styled-Components | TypeScript",
+    "tec1": "React | Scss | Webpack",
     "tec2": "Scss",
-    "tec3": "TypeScript",
-    "link": "https://metacripto.vercel.app/",
-    "repo": "https://github.com/painiago/landingpage"
+    "tec3": "Webpack",
+    "link": "https://portifolioarquitetura.netlify.app/",
+    "repo": "https://github.com/painiago/projectarquitetura"
 
   }
   

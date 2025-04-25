@@ -6,7 +6,7 @@ import './projeto.scss';
 import img1 from '/public/img/arquitetura.png';
 import img2 from '/public/img/exhouse2.png';
 import img3 from '/public/img/guiajs2.png';
-import img4 from '/public/img/metacriptopro.png';
+import img4 from '/public/img/viral.png';
 import projectsData from '../../../api/projects.json';
 
 function Projetos() {
@@ -55,7 +55,7 @@ function Projetos() {
             <div className="project-title">
               <div className="testhover">           
                 <a href={project.link} target="_blank" className="project">
-                  {(project.id === 1 || project.id === 2 || project.id === 3 || project.id === 4) && 
+                  {(project.id === 4 || project.id === 2 || project.id === 3 || project.id === 1) && 
                     <img src={project.id === 1 ? img1 : project.id === 2 ? img2 : project.id === 3 ? img3 : img4} alt="projeto" className="project-image" loading="lazy" />
                   }
                 </a>

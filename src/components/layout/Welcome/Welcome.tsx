@@ -15,8 +15,8 @@ return (
               <FontAwesomeIcon icon={faHand} className='icon'/>
             </h1>
           </span>
-          <p className='web'> desenvolvedor Front-End</p>
-          <p className='subtitle'>Eu desenho e codifico coisas lindamente simples e amo o que faço.</p>
+          <p className='web'> desenvolvedor Front-End | Social Media</p>
+          <p className='subtitle'>Transformo ideias em interfaces.</p>
           <SettingAudio/> 
           <div className="contact-linkwelcome">
           <a className="btnwelcome btn-outline-light btn-floating m-1" target="_blank" href="https://www.linkedin.com/in/iagonascimento/" role="button"><i className="fab fa-linkedin-in "></i></a>

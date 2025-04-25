@@ -11,10 +11,13 @@ function Skills (){
       {/* <h2>Olá, sou o Iago. Prazer em conhecê-lo</h2> */}
       <h2>Prazer em conhecê-lo</h2>
       <div className="containerDescription">
-        <p className="descricao">Olá, meu nome é Iago Nascimento, tenho 26 anos e sou um desenvolvedor front-end.  Atualmente, minha especialização está no desenvolvimento front-end de websites.
-Tenho uma abordagem colaborativa e adoro compartilhar ideias para criar produtos excepcionais. Sou movido pela confiança e curiosidade, constantemente buscando resolver bugs e desafios.
-Meu objetivo é entregar resultados de qualidade que superem as expectativas dos clientes. Estou empolgado para continuar aprimorando minhas habilidades e enfrentando novos desafios no mundo do desenvolvimento.
-Se você estiver interessado em colaborar ou tiver alguma pergunta, fique à vontade para entrar em contato comigo. </p>
+        <p className="descricao">Olá, meu nome é Iago Nascimento, tenho 27 anos e sou desenvolvedor front-end e designer para social media.
+Atualmente, minha especialização está no desenvolvimento de interfaces web e na criação de conteúdos visuais para redes sociais. Tenho uma abordagem colaborativa e gosto de trocar ideias para criar produtos que entreguem valor real.
+
+Sou movido pela confiança e curiosidade, sempre buscando resolver desafios técnicos e visuais com criatividade. Meu foco está em entregar resultados de qualidade, que superem as expectativas dos clientes, tanto no código quanto no design.
+
+Estou constantemente aprimorando minhas habilidades em front-end e comunicação visual, e sigo aberto a novos desafios no mundo digital.
+Se quiser trocar uma ideia ou colaborar em algum projeto, fique à vontade para me chamar! </p>
         </div> 
       <div className="content">
         <div className="column">
@@ -40,7 +43,7 @@ Se você estiver interessado em colaborar ou tiver alguma pergunta, fique à von
           <h2>Designer</h2>
           <p> Valorizo a estrutura de conteúdo simples, padrões de design limpos e interações ponderadas.</p>
           <p className="titulo">Coisas que eu gosto de projetar:</p>
-          <p>Web</p>
+          <p>Web, Posts para redes sociais, Carrosséis </p>
           <p className="titulo">Ferramentas de design:</p>
           <ul>
             <li>Figma</li>
