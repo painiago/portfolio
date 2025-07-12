@@ -6,7 +6,7 @@ import './projeto.scss';
 import img1 from '/public/img/arquitetura.png';
 import img2 from '/public/img/exhouse2.png';
 import img3 from '/public/img/guiajs2.png';
-import img4 from '/public/img/viral.png';
+import img4 from '/public/img/sviral.png';
 import projectsData from '../../../api/projects.json';
 
 function Projetos() {
